@@ -1,1 +1,1040 @@
-# biaozhang.github.io
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>徐闻县阳光志愿者协会2025年度总结暨表彰大会议程</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft YaHei", "Segoe UI", sans-serif;
+        }
+        
+        body {
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #1e5799 0%, #207cca 51%, #2989d8 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .header::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('https://images.unsplash.com/photo-1511795409834-ef04bbd61622?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            background-position: center;
+            opacity: 0.15;
+            z-index: 0;
+        }
+        
+        .header-content {
+            position: relative;
+            z-index: 1;
+        }
+        
+        .logo {
+            font-size: 42px;
+            margin-bottom: 10px;
+            color: #FFD700;
+        }
+        
+        h1 {
+            font-size: 36px;
+            margin-bottom: 15px;
+            letter-spacing: 1px;
+        }
+        
+        .subtitle {
+            font-size: 22px;
+            margin-bottom: 20px;
+            font-weight: 300;
+        }
+        
+        .info-bar {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-top: 25px;
+            padding-top: 25px;
+            border-top: 1px solid rgba(255, 255, 255, 0.3);
+        }
+        
+        .info-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .info-item i {
+            font-size: 22px;
+            color: #FFD700;
+        }
+        
+        .chapters {
+            padding: 30px;
+        }
+        
+        .chapter {
+            margin-bottom: 40px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        }
+        
+        .chapter-header {
+            padding: 20px;
+            color: white;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .chapter-1 .chapter-header {
+            background: linear-gradient(to right, #1e5799, #207cca);
+        }
+        
+        .chapter-2 .chapter-header {
+            background: linear-gradient(to right, #d35400, #e67e22);
+        }
+        
+        .chapter-3 .chapter-header {
+            background: linear-gradient(to right, #27ae60, #2ecc71);
+        }
+        
+        .chapter-4 .chapter-header {
+            background: linear-gradient(to right, #8e44ad, #9b59b6);
+        }
+        
+        .chapter-icon {
+            font-size: 28px;
+        }
+        
+        .chapter-title {
+            font-size: 26px;
+        }
+        
+        .chapter-time {
+            margin-left: auto;
+            font-size: 16px;
+            background-color: rgba(255, 255, 255, 0.2);
+            padding: 5px 12px;
+            border-radius: 20px;
+        }
+        
+        .agenda-items {
+            padding: 0;
+        }
+        
+        .agenda-item {
+            display: flex;
+            padding: 20px;
+            border-bottom: 1px solid #f0f0f0;
+            transition: background-color 0.3s;
+        }
+        
+        .agenda-item:hover {
+            background-color: #f9f9f9;
+        }
+        
+        .agenda-item:last-child {
+            border-bottom: none;
+        }
+        
+        .item-icon {
+            font-size: 24px;
+            width: 50px;
+            text-align: center;
+            margin-right: 15px;
+            flex-shrink: 0;
+        }
+        
+        .item-details {
+            flex: 1;
+        }
+        
+        .item-title {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 5px;
+            color: #2c3e50;
+        }
+        
+        .item-performer {
+            color: #7f8c8d;
+            font-size: 15px;
+            margin-bottom: 8px;
+        }
+        
+        .item-description {
+            color: #95a5a6;
+            font-size: 14.5px;
+            font-style: italic;
+        }
+        
+        .badge {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-left: 10px;
+            vertical-align: middle;
+        }
+        
+        .badge-performance {
+            background-color: #e8f4fc;
+            color: #3498db;
+        }
+        
+        .badge-speech {
+            background-color: #e8f7ee;
+            color: #27ae60;
+        }
+        
+        .badge-award {
+            background-color: #fef9e7;
+            color: #f39c12;
+        }
+        
+        .badge-interaction {
+            background-color: #f4ecf7;
+            color: #8e44ad;
+        }
+        
+        .badge-dinner {
+            background-color: #fdedec;
+            color: #e74c3c;
+        }
+        
+        .badge-media {
+            background-color: #e8f6f3;
+            color: #16a085;
+        }
+        
+        .item-number {
+            display: inline-block;
+            width: 28px;
+            height: 28px;
+            background-color: #f0f0f0;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 28px;
+            margin-right: 12px;
+            font-size: 14px;
+            font-weight: bold;
+            color: #555;
+            flex-shrink: 0;
+        }
+        
+        .footer {
+            background-color: #2c3e50;
+            color: white;
+            padding: 30px;
+            text-align: center;
+            border-top: 5px solid #3498db;
+        }
+        
+        .footer h3 {
+            margin-bottom: 15px;
+            color: #FFD700;
+        }
+        
+        .footer p {
+            margin-bottom: 10px;
+            opacity: 0.8;
+        }
+        
+        .interactive-elements {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .interactive-element {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            border-radius: 10px;
+            width: 180px;
+        }
+        
+        .interactive-element i {
+            font-size: 24px;
+            color: #3498db;
+            margin-bottom: 10px;
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 28px;
+            }
+            
+            .subtitle {
+                font-size: 18px;
+            }
+            
+            .info-bar {
+                flex-direction: column;
+                gap: 15px;
+                align-items: flex-start;
+                padding-left: 20px;
+            }
+            
+            .chapter-title {
+                font-size: 22px;
+            }
+            
+            .chapter-time {
+                font-size: 14px;
+                padding: 3px 10px;
+            }
+            
+            .agenda-item {
+                padding: 15px;
+            }
+            
+            .item-icon {
+                margin-right: 10px;
+                width: 40px;
+            }
+            
+            .item-number {
+                width: 24px;
+                height: 24px;
+                line-height: 24px;
+                font-size: 12px;
+                margin-right: 10px;
+            }
+        }
+        
+        .total-count {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 10px;
+            font-size: 14px;
+            color: #666;
+            border-left: 4px solid #3498db;
+        }
+        
+        .stats-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .stat-box {
+            flex: 1;
+            min-width: 150px;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: 28px;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+        
+        .stat-label {
+            font-size: 14px;
+            color: #7f8c8d;
+        }
+        
+        .timeline {
+            position: relative;
+            margin: 40px 0;
+            padding-left: 30px;
+        }
+        
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 15px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #3498db;
+        }
+        
+        .time-marker {
+            position: absolute;
+            left: 0;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background: #3498db;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            z-index: 2;
+        }
+        
+        .time-content {
+            margin-left: 40px;
+            margin-bottom: 30px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid #3498db;
+        }
+        
+        .time-label {
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-content">
+                <h1>徐闻县阳光志愿者协会</h1>
+                <div class="subtitle">2025年度总结暨表彰大会议程</div>
+                
+                <div class="info-bar">
+                    <div class="info-item">
+                        <i class="fas fa-calendar-alt"></i>
+                        <span>2026年2月9日（星期一）15:30-19:00</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>徐闻县星海湾酒店（3楼星海厅）</span>
+                    </div>
+                </div>
+                
+                <div class="stats-container">
+                    <div class="stat-box">
+                        <div class="stat-number">38</div>
+                        <div class="stat-label">会议环节</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">5</div>
+                        <div class="stat-label">表演节目</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">10</div>
+                        <div class="stat-label">表彰类别</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">4</div>
+                        <div class="stat-label">抽奖环节</div>
+                    </div>
+                </div>
+                
+                <!-- 时间轴概览 -->
+                <div class="timeline" style="background: transparent; margin: 30px 0 0 0; padding: 0;">
+                    <div style="display: flex; justify-content: space-between; color: white; font-weight: bold; margin-top: 20px;">
+                        <div>15:30</div>
+                        <div>16:15</div>
+                        <div>17:15</div>
+                        <div>18:00</div>
+                        <div>19:00</div>
+                    </div>
+                    <div style="display: flex; justify-content: space-between; margin-top: 10px;">
+                        <div style="width: 20%; text-align: center; background: rgba(255,255,255,0.2); padding: 5px; border-radius: 5px;">启程·感恩</div>
+                        <div style="width: 20%; text-align: center; background: rgba(255,255,255,0.2); padding: 5px; border-radius: 5px;">荣耀·致敬</div>
+                        <div style="width: 20%; text-align: center; background: rgba(255,255,255,0.2); padding: 5px; border-radius: 5px;">风采·共情</div>
+                        <div style="width: 20%; text-align: center; background: rgba(255,255,255,0.2); padding: 5px; border-radius: 5px;">晚宴·同欢</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="chapters">
+            <!-- 第一篇章 -->
+            <div class="chapter chapter-1">
+                <div class="chapter-header">
+                    <div class="chapter-icon">
+                        <i class="fas fa-flag"></i>
+                    </div>
+                    <div class="chapter-title">第一篇章：启程·感恩</div>
+                    <div class="chapter-time">15:30 - 16:15</div>
+                </div>
+                <div class="agenda-items">
+                    <div class="agenda-item">
+                        <div class="item-number">1</div>
+                        <div class="item-icon">
+                            <i class="fas fa-play" style="color: #3498db;"></i>
+                        </div>
+                        <div class="item-details">
+                            <div class="item-title">开场舞《飞翔》 <span class="badge badge-performance">表演</span></div>
+                            <div class="item-performer">苗苗舞蹈队</div>
+                            <div class="item-description">以活力的舞蹈拉开晚会序幕，象征志愿者精神展翅飞翔</div>
+                        </div>
+                    </div>
+                    
+                    <div class="agenda-item">
+                        <div class="item-number">2</div>
+                        <div class="item-icon">
+                            <i class="fas fa-microphone" style="color: #e74c3c;"></i>
+                        </div>
+                        <div class="item-details">
+                            <div class="item-title">主持人开场 <span class="badge badge-speech">主持</span></div>
+                        </div>
+                    </div>
+                    
+                    <div class="agenda-item">
+                        <div class="item-number">3</div>
+                        <div class="item-icon">
+                            <i class="fas fa-music" style="color: #9b59b6;"></i>
+                        </div>
+                        <div class="item-details">
+                            <div class="item-title">全体奏唱国歌 <span class="badge badge-speech">仪式</span></div>
+                        </div>
+                    </div>
+                    
+                    <div class="agenda-item">
+                        <div class="item-number">4</div>
+                        <div class="item-icon">
+                            <i class="fas fa-users" style="color: #2c3e50;"></i>
+                        </div>
+                        <div class="item-details">
+                            <div class="item-title">主持人介绍来宾 <span class="badge badge-speech">介绍</span></div>
+                        </div>
+                    </div>
+                    
+                    <div class="agenda-item">
+                        <div class="item-number">5</div>
+                        <div class="item-icon">
+                            <i class="fas fa-video" style="color: #16a085;"></i>
+                        </div>
+                        <div class="item-details">
+                            <div class="item-title">观看年度回顾视频 <span class="badge badge-media">视频</span></div>
+                            <div class="item-description">回顾2025年志愿者协会的精彩瞬间与感人故事</div>
+                        </div>
+                    </div>
+                    
+                    <div class="agenda-item">
+                        <div class="item-number">6</div>
+                        <div class="item-icon">
+                            <i class="fas fa-user-tie" style="color: #16a085;"></i>
+                        </div>
+                        <div class="item-details">
+                            <div class="item-title">领导致辞 <span class="badge badge-speech">发言</span></div>
+                            <div class="item-performer">中共徐闻县委社会工作部副部长 郑乾</div>
+                            <div class="item-description">领导对志愿者工作的肯定与指导</div>
+                        </div>
+                    </div>
+                    
+                    <div class="agenda-item">
+                        <div class="item-number">7</div>
+                        <div class="item-icon">
+                            <i class="fas fa-chart-line" style="color: #27ae60;"></i>
+                        </div>
+                        <div class="item-details">
+                            <div class="item-title">协会年度工作汇报 <span class="badge badge-speech">汇报</span></div>
+                            <div class="item-performer">会长 郑小娟</div>
+                            <div class="item-description">总结2025年度协会工作成果与经验</div>
+                        </div>
+                    </div>
+                    
+                    <div class="agenda-item">
+                        <div class="item-number">8</div>
+                        <div class="item-icon">
+                            <i class="fas fa-flag" style="color: #c0392b;"></i>
+                        </div>
+                        <div class="item-details">
+                            <div class="item-title">党支部工作汇报 <span class="badge badge-speech">汇报</span></div>
+                            <div class="item-performer">党支部书记 吴小群</div>
+                        </div>
+                    </div>
+                    
+                    <div class="agenda-item">
+                        <div class="item-number">9</div>
+                        <div class="item-icon">
+                            <i class="fas fa-file-invoice-dollar" style="color: #f39c12;"></i>
+                        </div>
+                        <div class="item-details">
+                            <div class="item-title">年度财务报告 <span class="badge badge-speech">报告</span></div>
+                            <div class="item-performer">蒋桂萍</div>
+                            <div class="item-description">公开、透明地汇报协会年度财务状况</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 第二篇章 -->
+            <div class="chapter chapter-2">
+                <div class="chapter-header">
+                    <div class="chapter-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <div class="chapter-title">第二篇章：荣耀·致敬</div>
+                    <div class="chapter-time">16:15 - 17:15</div>
+                </div>
+                <div class="agenda-items">
+                    <div class="agenda-item">
+                        <div class="item-number">10</div>
+                        <div class="item-icon">
+                            <i class="fas fa-star" style="color: #3498db;"></i>
+                        </div>
+                        <div class="item-details">
+                            <div class="item-title">独唱《大鱼》《牧羊曲》 <span class="badge badge-performance">表演</span></div>
+                            <div class="item-performer">王冰</div>
+                        </div>
+                    </div>
+                    
+                    <div class="agenda-item">
+                        <div class="item-number">11</div>
+                        <div class="item-icon">
+                            <i class="fas fa-trophy" style="color: #f1c40f;"></i>
+                        </div>
+                        <div class="item-details">
+                            <div class="item-title">"年度基石奖"表彰 <span class="badge badge-award">表彰</span></div>
+                            <div class="item-description">表彰为协会发展奠定坚实基础的志愿者</div>
+                        </div>
+                    </div>
+                    
+                    <div class="agenda-item">
+                        <div class="item-number">12</div>
+                        <div class="item-icon">
+                            <i class="fas fa-medal" style="color: #f1c40f;"></i>
+                        </div>
+                        <div class="item-details">
+                            <div class="item-title">为各志愿服务站点、项目负责人颁奖 <span class="badge badge-award">表彰</span></div>
+                            <div class="item-description">表彰在社区服务、项目推进中表现突出的团队代表</div>
+                        </div>
+                    </div>
+                    
+                    <div class="agenda-item">
+                        <div class="item-number">13</div>
+                        <div class="item-icon">
+                            <i class="fas fa-theater-masks" style="color: #9b59b6;"></i>
+                        </div>
+                        <div class="item-details">
+                            <div class="item-title">朗诵《阳光脚步丈量徐闻热土》 <span class="badge badge-performance">表演</span></div>
+                            <div class="item-performer">符媛媛、唐尚漳、郭思凡、温隽迪</div>
+                            <div class="item-description">致敬志愿者无私奉献精神，展现志愿服务成果</div>
+                        </div>
+                    </div>
+                    
+                    <div class="agenda-item">
+                        <div class="item-number">14</div>
+                        <div class="item-icon">
+                            <i class="fas fa-hands-helping" style="color: #f1c40f;"></i>
+                        </div>
+                        <div class="item-details">
+                            <div class="item-title">"湛江市5000时长+志愿者"表彰 <span class="badge badge-award">表彰</span></div>
+                            <div class="item-description">表彰服务时长超过5000小时的志愿者</div>
+                        </div>
+                    </div>
+                    
+                    <div class="agenda-item">
+                        <div class="item-number">15</div>
+                        <div class="item-icon">
+                            <i class="fas fa-hands-helping" style="color: #f1c40f;"></i>
+                        </div>
+                        <div class="item-details">
+                            <div class="item-title">为获得湛江市《十周年优秀志愿者》颁奖 <span class="badge badge-award">表彰</span></div>
+                            <div class="item-description">表彰获得湛江市十周年优秀志愿者荣誉的会员</div>
+                        </div>
+                    </div>
+                    
+                    <div class="agenda-item">
+                        <div class="item-number">16</div>
+                        <div class="item-icon">
+                            <i class="fas fa-dancing" style="color: #e74c3c;"></i>
+                        </div>
+                        <div class="item-details">
+                            <div class="item-title">舞蹈《黄河·母亲河》 <span class="badge badge-performance">表演</span></div>
+                            <div class="item-performer">苗苗舞蹈队</div>
+                        </div>
+                    </div>
+                    
+                    <div class="agenda-item">
+                        <div class="item-number">17</div>
+                        <div class="item-icon">
+                            <i class="fas fa-user-graduate" style="color: #2c3e50;"></i>
+                        </div>
+                        <div class="item-details">
+                            <div class="item-title">国家奖学金获得者代表发言 <span class="badge badge-speech">发言</span></div>
+                            <div class="item-performer">陈俊狄</div>
+                            <div class="item-description">分享成长经历，感谢志愿者协会的支持</div>
+                        </div>
+                    </div>
+                    
+                    <div class="agenda-item">
+                        <div class="item-number">18</div>
+                        <div class="item-icon">
+                            <i class="fas fa-users" style="color: #f1c40f;"></i>
+                        </div>
+                        <div class="item-details">
+                            <div class="item-title">"优秀志愿者"表彰 <span class="badge badge-award">表彰</span></div>
+                            <div class="total-count">共83名，分2批进行</div>
+                        </div>
+                    </div>
+                    
+                    <div class="agenda-item">
+                        <div class="item-number">19</div>
+                        <div class="item-icon">
+                            <i class="fas fa-flag" style="color: #f1c40f;"></i>
+                        </div>
+                        <div class="item-details">
+                            <div class="item-title">2025年"征兵助力"志愿服务专项表彰 <span class="badge badge-award">表彰</span></div>
+                            <div class="item-description">表彰在征兵助力专项服务中表现突出的志愿者</div>
+                        </div>
+                    </div>
+                    
+                    <div class="agenda-item">
+                        <div class="item-number">20</div>
+                        <div class="item-icon">
+                            <i class="fas fa-user-graduate" style="color: #f1c40f;"></i>
+                        </div>
+                        <div class="item-details">
+                            <div class="item-title">杰出志愿者表彰 <span class="badge badge-award">表彰</span></div>
+                            <div class="total-count">共76名，分2批进行</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 第三篇章 -->
+            <div class="chapter chapter-3">
+                <div class="chapter-header">
+                    <div class="chapter-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <div class="chapter-title">第三篇章：风采·共情</div>
+                    <div class="chapter-time">17:15 - 18:00</div>
+                </div>
+                <div class="agenda-items">
+                    <div class="agenda-item">
+                        <div class="item-number">21</div>
+                        <div class="item-icon">
+                            <i class="fas fa-star" style="color: #3498db;"></i>
+                        </div>
+                        <div class="item-details">
+                            <div class="item-title">独唱《搀扶》《我爱大中国》 <span class="badge badge-performance">表演</span></div>
+                            <div class="item-performer">方良栋</div>
+                        </div>
+                    </div>
+                    
+                    <div class="agenda-item">
+                        <div class="item-number">22</div>
+                        <div class="item-icon">
+                            <i class="fas fa-hands" style="color: #27ae60;"></i>
+                        </div>
+                        <div class="item-details">
+                            <div class="item-title">"益苗计划"项目分享 <span class="badge badge-speech">分享</span></div>
+                            <div class="item-performer">副秘书长 庄海杰</div>
+                            <div class="item-description">介绍"益苗计划"项目成果与未来规划</div>
+                        </div>
+                    </div>
+                    
+                    <div class="agenda-item">
+                        <div class="item-number">23</div>
+                        <div class="item-icon">
+                            <i class="fas fa-child" style="color: #3498db;"></i>
+                        </div>
+                        <div class="item-details">
+                            <div class="item-title">受助学生代表发言 <span class="badge badge-speech">发言</span></div>
+                            <div class="item-performer">胡忆旋</div>
+                            <div class="item-description">分享受助经历，表达对志愿者的感激之情</div>
+                        </div>
+                    </div>
+                    
+                    <div class="agenda-item">
+                        <div class="item-number">24</div>
+                        <div class="item-icon">
+                            <i class="fas fa-crown" style="color: #f1c40f;"></i>
+                        </div>
+                        <div class="item-details">
+                            <div class="item-title">"最美志愿者"表彰 <span class="badge badge-award">表彰</span></div>
+                            <div class="total-count">共42名</div>
+                        </div>
+                    </div>
+                    
+                    <div class="agenda-item">
+                        <div class="item-number">25</div>
+                        <div class="item-icon">
+                            <i class="fas fa-calendar-check" style="color: #f1c40f;"></i>
+                        </div>
+                        <div class="item-details">
+                            <div class="item-title">"日行一善奖"表彰 <span class="badge badge-award">表彰</span></div>
+                            <div class="total-count">共33名</div>
+                        </div>
+                    </div>
+                    
+                    <div class="agenda-item">
+                        <div class="item-number">26</div>
+                        <div class="item-icon">
+                            <i class="fas fa-donate" style="color: #f1c40f;"></i>
+                        </div>
+                        <div class="item-details">
+                            <div class="item-title">爱心捐赠表彰[500-1000元] <span class="badge badge-award">表彰</span></div>
+                            <div class="total-count">共11名</div>
+                        </div>
+                    </div>
+                    
+                    <div class="agenda-item">
+                        <div class="item-number">27</div>
+                        <div class="item-icon">
+                            <i class="fas fa-donate" style="color: #f1c40f;"></i>
+                        </div>
+                        <div class="item-details">
+                            <div class="item-title">爱心捐赠表彰[1000元以上] <span class="badge badge-award">表彰</span></div>
+                            <div class="total-count">共5名</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 第四篇章 -->
+            <div class="chapter chapter-4">
+                <div class="chapter-header">
+                    <div class="chapter-icon">
+                        <i class="fas fa-glass-cheers"></i>
+                    </div>
+                    <div class="chapter-title">第四篇章：晚宴·同欢</div>
+                    <div class="chapter-time">18:00 - 19:00</div>
+                </div>
+                <div class="agenda-items">
+                    <div class="agenda-item">
+                        <div class="item-number">28</div>
+                        <div class="item-icon">
+                            <i class="fas fa-utensils" style="color: #e74c3c;"></i>
+                        </div>
+                        <div class="item-details">
+                            <div class="item-title">晚宴开始 <span class="badge badge-dinner">晚宴</span></div>
+                            <div class="item-description">与会嘉宾共同享用晚宴，交流志愿心得</div>
+                        </div>
+                    </div>
+                    
+                    <div class="agenda-item">
+                        <div class="item-number">29</div>
+                        <div class="item-icon">
+                            <i class="fas fa-dancing" style="color: #3498db;"></i>
+                        </div>
+                        <div class="item-details">
+                            <div class="item-title">舞蹈《峥嵘岁月》 <span class="badge badge-performance">表演</span></div>
+                            <div class="item-performer">苗苗舞蹈队</div>
+                        </div>
+                    </div>
+                    
+                    <div class="agenda-item">
+                        <div class="item-number">30</div>
+                        <div class="item-icon">
+                            <i class="fas fa-gift" style="color: #9b59b6;"></i>
+                        </div>
+                        <div class="item-details">
+                            <div class="item-title">抽奖环节（幸运奖） <span class="badge badge-interaction">抽奖</span></div>
+                            <div class="total-count">共60名，分2批进行</div>
+                        </div>
+                    </div>
+                    
+                    <div class="agenda-item">
+                        <div class="item-number">31</div>
+                        <div class="item-icon">
+                            <i class="fas fa-microphone" style="color: #27ae60;"></i>
+                        </div>
+                        <div class="item-details">
+                            <div class="item-title">副会长致辞 <span class="badge badge-speech">发言</span></div>
+                            <div class="item-performer">副会长 梁四</div>
+                            <div class="item-description">展望协会未来发展，感谢所有志愿者</div>
+                        </div>
+                    </div>
+                    
+                    <div class="agenda-item">
+                        <div class="item-number">32</div>
+                        <div class="item-icon">
+                            <i class="fas fa-gift" style="color: #9b59b6;"></i>
+                        </div>
+                        <div class="item-details">
+                            <div class="item-title">抽奖环节（三等奖） <span class="badge badge-interaction">抽奖</span></div>
+                            <div class="total-count">共40名，分2批进行</div>
+                        </div>
+                    </div>
+                    
+                    <div class="agenda-item">
+                        <div class="item-number">33</div>
+                        <div class="item-icon">
+                            <i class="fas fa-gift" style="color: #9b59b6;"></i>
+                        </div>
+                        <div class="item-details">
+                            <div class="item-title">抽奖环节（二等奖） <span class="badge badge-interaction">抽奖</span></div>
+                            <div class="total-count">共5名</div>
+                        </div>
+                    </div>
+                    
+                    <div class="agenda-item">
+                        <div class="item-number">34</div>
+                        <div class="item-icon">
+                            <i class="fas fa-gift" style="color: #9b59b6;"></i>
+                        </div>
+                        <div class="item-details">
+                            <div class="item-title">抽奖环节（一等奖） <span class="badge badge-interaction">抽奖</span></div>
+                            <div class="total-count">共18名</div>
+                        </div>
+                    </div>
+                    
+                    <div class="agenda-item">
+                        <div class="item-number">35</div>
+                        <div class="item-icon">
+                            <i class="fas fa-dancing" style="color: #e74c3c;"></i>
+                        </div>
+                        <div class="item-details">
+                            <div class="item-title">舞蹈《Queen Time》 <span class="badge badge-performance">表演</span></div>
+                            <div class="item-performer">陈碧灵、梁彩琪、柯云秋</div>
+                        </div>
+                    </div>
+                    
+                    <div class="agenda-item">
+                        <div class="item-number">36</div>
+                        <div class="item-icon">
+                            <i class="fas fa-gift" style="color: #9b59b6;"></i>
+                        </div>
+                        <div class="item-details">
+                            <div class="item-title">抽奖环节（特等奖） <span class="badge badge-interaction">抽奖</span></div>
+                            <div class="total-count">共1名</div>
+                        </div>
+                    </div>
+                    
+                    <div class="agenda-item">
+                        <div class="item-number">37</div>
+                        <div class="item-icon">
+                            <i class="fas fa-hands" style="color: #8e44ad;"></i>
+                        </div>
+                        <div class="item-details">
+                            <div class="item-title">理事会贺年宣誓 <span class="badge badge-interaction">仪式</span></div>
+                            <div class="item-description">协会理事会成员集体宣誓</div>
+                        </div>
+                    </div>
+                    
+                    <div class="agenda-item">
+                        <div class="item-number">38</div>
+                        <div class="item-icon">
+                            <i class="fas fa-camera" style="color: #2c3e50;"></i>
+                        </div>
+                        <div class="item-details">
+                            <div class="item-title">合影留念 <span class="badge badge-interaction">互动</span></div>
+                            <div class="item-description">记录2025年度志愿者盛会的美好瞬间</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <div class="interactive-elements">
+                <div class="interactive-element">
+                    <i class="fas fa-qrcode"></i>
+                    <div>电子互动墙</div>
+                    <div style="font-size: 13px; opacity: 0.9;">扫码签到，祝福上墙</div>
+                </div>
+                
+                <div class="interactive-element">
+                    <i class="fas fa-video"></i>
+                    <div>故事短视频</div>
+                    <div style="font-size: 13px; opacity: 0.9;">志愿者故事短片播放</div>
+                </div>
+                
+                <div class="interactive-element">
+                    <i class="fas fa-camera-retro"></i>
+                    <div>主题拍照区</div>
+                    <div style="font-size: 13px; opacity: 0.9;">志愿者主题背景合影</div>
+                </div>
+                
+                <div class="interactive-element">
+                    <i class="fas fa-comments"></i>
+                    <div>实时互动</div>
+                    <div style="font-size: 13px; opacity: 0.9;">微信墙互动交流</div>
+                </div>
+            </div>
+            
+            <p style="margin-top: 25px; font-size: 14px;">©徐闻县阳光志愿者协会 · 2025年年度总结表彰大会议程</p>
+            <p style="font-size: 12px; opacity: 0.7;">最后更新：2026年2月9日01:30 </p>
+        </div>
+    </div>
+
+    <script>
+        // 添加议程项点击效果
+        document.querySelectorAll('.agenda-item').forEach(item => {
+            item.addEventListener('click', function() {
+                this.classList.toggle('active');
+            });
+        });
+        
+        // 页面加载时显示动画效果
+        document.addEventListener('DOMContentLoaded', function() {
+            const chapters = document.querySelectorAll('.chapter');
+            chapters.forEach((chapter, index) => {
+                setTimeout(() => {
+                    chapter.style.opacity = '1';
+                    chapter.style.transform = 'translateY(0)';
+                }, index * 100);
+            });
+            
+            // 初始设置
+            chapters.forEach(chapter => {
+                chapter.style.opacity = '0';
+                chapter.style.transform = 'translateY(20px)';
+                chapter.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+            });
+            
+            // 为统计数字添加动画
+            const statNumbers = document.querySelectorAll('.stat-number');
+            statNumbers.forEach(number => {
+                const finalValue = parseInt(number.textContent);
+                let currentValue = 0;
+                const increment = finalValue / 30;
+                const timer = setInterval(() => {
+                    currentValue += increment;
+                    if (currentValue >= finalValue) {
+                        currentValue = finalValue;
+                        clearInterval(timer);
+                    }
+                    number.textContent = Math.round(currentValue);
+                }, 50);
+            });
+            
+            // 为议程项添加序号动画
+            const itemNumbers = document.querySelectorAll('.item-number');
+            itemNumbers.forEach((number, index) => {
+                setTimeout(() => {
+                    number.style.transform = 'scale(1.2)';
+                    number.style.backgroundColor = '#3498db';
+                    number.style.color = 'white';
+                    setTimeout(() => {
+                        number.style.transform = 'scale(1)';
+                    }, 300);
+                }, index * 50);
+            });
+        });
+    </script>
+</body>
+</html>
